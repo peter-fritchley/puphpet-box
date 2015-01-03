@@ -1,0 +1,19 @@
+[alias]
+        lg = log --graph --decorate --branches --oneline --remotes --tags --all
+        st = status
+        co = checkout
+        ci = commit
+        cdiff = diff --cached
+        yoink = cherry-pick
+        ff = merge --ff-only
+        unchanged = update-index --assume-unchanged
+        changed = update-index --no-assume-unchanged
+[status]
+        submodulesummary = true
+[color]
+        ui = true
+[core]
+        editor = nano
+[color "branch"]
+        current = yellow bold
+        remote = cyan bold

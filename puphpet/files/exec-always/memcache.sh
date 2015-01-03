@@ -1,0 +1,1 @@
+sed -i 's/-l.*/-l\ 127\.0\.0\.1/' /etc/sysconfig/memcached
