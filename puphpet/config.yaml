@@ -154,11 +154,13 @@ php:
         php:
             - cli
             - intl
+            - mysqlnd
             - mcrypt
             - mbstring
             - soap
             - gd
             - opcache
+            - pdo
         pear: {  }
         pecl:
             - pecl_http
